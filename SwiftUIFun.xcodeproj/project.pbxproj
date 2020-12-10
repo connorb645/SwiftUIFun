@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		C3CCC1F42582C118009113C6 /* SwiftUIFunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCC1F32582C118009113C6 /* SwiftUIFunApp.swift */; };
-		C3CCC1F62582C118009113C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCC1F52582C118009113C6 /* ContentView.swift */; };
+		C3CCC1F62582C118009113C6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCC1F52582C118009113C6 /* HomeView.swift */; };
 		C3CCC1F82582C11B009113C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3CCC1F72582C11B009113C6 /* Assets.xcassets */; };
 		C3CCC1FB2582C11B009113C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3CCC1FA2582C11B009113C6 /* Preview Assets.xcassets */; };
+		C3CCC20B2582CC60009113C6 /* ThreeDotsLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCC20A2582CC60009113C6 /* ThreeDotsLoaderView.swift */; };
+		C3CCC20F2582CCB0009113C6 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCC20E2582CCB0009113C6 /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C3CCC1F02582C118009113C6 /* SwiftUIFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CCC1F32582C118009113C6 /* SwiftUIFunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFunApp.swift; sourceTree = "<group>"; };
-		C3CCC1F52582C118009113C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C3CCC1F52582C118009113C6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C3CCC1F72582C11B009113C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3CCC1FA2582C11B009113C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C3CCC1FC2582C11B009113C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3CCC20A2582CC60009113C6 /* ThreeDotsLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDotsLoaderView.swift; sourceTree = "<group>"; };
+		C3CCC20E2582CCB0009113C6 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +56,11 @@
 		C3CCC1F22582C118009113C6 /* SwiftUIFun */ = {
 			isa = PBXGroup;
 			children = (
+				C3CCC20D2582CCA0009113C6 /* Extensions */,
+				C3CCC2062582C774009113C6 /* Resources */,
 				C3CCC1F32582C118009113C6 /* SwiftUIFunApp.swift */,
-				C3CCC1F52582C118009113C6 /* ContentView.swift */,
-				C3CCC1F72582C11B009113C6 /* Assets.xcassets */,
+				C3CCC2042582C641009113C6 /* Animations */,
+				C3CCC1F52582C118009113C6 /* HomeView.swift */,
 				C3CCC1FC2582C11B009113C6 /* Info.plist */,
 				C3CCC1F92582C11B009113C6 /* Preview Content */,
 			);
@@ -67,6 +73,38 @@
 				C3CCC1FA2582C11B009113C6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C3CCC2042582C641009113C6 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				C3CCC2052582C64F009113C6 /* Three Dots Loader */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		C3CCC2052582C64F009113C6 /* Three Dots Loader */ = {
+			isa = PBXGroup;
+			children = (
+				C3CCC20A2582CC60009113C6 /* ThreeDotsLoaderView.swift */,
+			);
+			path = "Three Dots Loader";
+			sourceTree = "<group>";
+		};
+		C3CCC2062582C774009113C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3CCC1F72582C11B009113C6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C3CCC20D2582CCA0009113C6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C3CCC20E2582CCB0009113C6 /* Color+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +176,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3CCC1F62582C118009113C6 /* ContentView.swift in Sources */,
+				C3CCC1F62582C118009113C6 /* HomeView.swift in Sources */,
+				C3CCC20B2582CC60009113C6 /* ThreeDotsLoaderView.swift in Sources */,
 				C3CCC1F42582C118009113C6 /* SwiftUIFunApp.swift in Sources */,
+				C3CCC20F2582CCB0009113C6 /* Color+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
