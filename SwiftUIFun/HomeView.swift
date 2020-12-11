@@ -10,12 +10,14 @@ import SwiftUI
 struct HomeView: View {
     
     enum Section: CaseIterable {
-        case threeDotsLoader
+        case threeDotsLoader, navigationDrawer
         
         var title: String {
             switch self {
             case .threeDotsLoader:
                 return "Three Dots Loader"
+            case .navigationDrawer:
+                return "Navigation Drawer"
             }
         }
     }
@@ -41,6 +43,8 @@ struct HomeView: View {
             switch section {
             case .threeDotsLoader:
                 ThreeDotsLoaderView()
+            case .navigationDrawer:
+                NavigationDrawerView()
          }
         }.frame(maxWidth: .infinity, maxHeight: .infinity)
         .edgesIgnoringSafeArea(.all)
