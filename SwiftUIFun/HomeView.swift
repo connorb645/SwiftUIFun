@@ -10,7 +10,7 @@ import SwiftUI
 struct HomeView: View {
     
     enum Section: CaseIterable {
-        case threeDotsLoader, navigationDrawer
+        case threeDotsLoader, navigationDrawer, pint, unsplash
         
         var title: String {
             switch self {
@@ -18,6 +18,10 @@ struct HomeView: View {
                 return "Three Dots Loader"
             case .navigationDrawer:
                 return "Navigation Drawer"
+            case .pint:
+                return "Pint Loader"
+            case .unsplash:
+                return "Unsplash"
             }
         }
     }
@@ -45,9 +49,12 @@ struct HomeView: View {
                 ThreeDotsLoaderView()
             case .navigationDrawer:
                 NavigationDrawerView()
+            case .pint:
+                PintView()
+            case .unsplash:
+                UnsplashListView(imageNames: unsplashImageNames)
          }
         }.frame(maxWidth: .infinity, maxHeight: .infinity)
-        .edgesIgnoringSafeArea(.all)
     }
     
 }

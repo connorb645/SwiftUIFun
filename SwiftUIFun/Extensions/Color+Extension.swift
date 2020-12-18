@@ -14,4 +14,7 @@ extension Color {
     static let mediumGreen = Color("MediumGreen")
     static let lightGreen = Color("LightGreen")
     static let mediumBlue = Color("MediumBlue")
+    static let beer1 = Color("Beer1")
+    static let beer2 = Color("Beer2")
+    static let beer3 = Color("Beer3")
 }

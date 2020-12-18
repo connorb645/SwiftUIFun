@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C34C7B70258CAFB600B37823 /* UnsplashListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34C7B6F258CAFB600B37823 /* UnsplashListView.swift */; };
 		C3CCC1F42582C118009113C6 /* SwiftUIFunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCC1F32582C118009113C6 /* SwiftUIFunApp.swift */; };
 		C3CCC1F62582C118009113C6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCC1F52582C118009113C6 /* HomeView.swift */; };
 		C3CCC1F82582C11B009113C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3CCC1F72582C11B009113C6 /* Assets.xcassets */; };
@@ -14,9 +15,11 @@
 		C3CCC20B2582CC60009113C6 /* ThreeDotsLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCC20A2582CC60009113C6 /* ThreeDotsLoaderView.swift */; };
 		C3CCC20F2582CCB0009113C6 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCC20E2582CCB0009113C6 /* Color+Extension.swift */; };
 		C3CCC2142583719B009113C6 /* NavigationDrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCC2132583719B009113C6 /* NavigationDrawerView.swift */; };
+		C3CCC21925852530009113C6 /* PintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCC21825852530009113C6 /* PintView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C34C7B6F258CAFB600B37823 /* UnsplashListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashListView.swift; sourceTree = "<group>"; };
 		C3CCC1F02582C118009113C6 /* SwiftUIFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CCC1F32582C118009113C6 /* SwiftUIFunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFunApp.swift; sourceTree = "<group>"; };
 		C3CCC1F52582C118009113C6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		C3CCC20A2582CC60009113C6 /* ThreeDotsLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDotsLoaderView.swift; sourceTree = "<group>"; };
 		C3CCC20E2582CCB0009113C6 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		C3CCC2132583719B009113C6 /* NavigationDrawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDrawerView.swift; sourceTree = "<group>"; };
+		C3CCC21825852530009113C6 /* PintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PintView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C34C7B6E258CAD5700B37823 /* Unsplash */ = {
+			isa = PBXGroup;
+			children = (
+				C34C7B6F258CAFB600B37823 /* UnsplashListView.swift */,
+			);
+			path = Unsplash;
+			sourceTree = "<group>";
+		};
 		C3CCC1E72582C118009113C6 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +92,8 @@
 		C3CCC2042582C641009113C6 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				C34C7B6E258CAD5700B37823 /* Unsplash */,
+				C3CCC21725852515009113C6 /* Pint Animation */,
 				C3CCC21225837110009113C6 /* Navigation Drawer */,
 				C3CCC2052582C64F009113C6 /* Three Dots Loader */,
 			);
@@ -116,6 +130,14 @@
 				C3CCC2132583719B009113C6 /* NavigationDrawerView.swift */,
 			);
 			path = "Navigation Drawer";
+			sourceTree = "<group>";
+		};
+		C3CCC21725852515009113C6 /* Pint Animation */ = {
+			isa = PBXGroup;
+			children = (
+				C3CCC21825852530009113C6 /* PintView.swift */,
+			);
+			path = "Pint Animation";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,7 +209,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C34C7B70258CAFB600B37823 /* UnsplashListView.swift in Sources */,
 				C3CCC1F62582C118009113C6 /* HomeView.swift in Sources */,
+				C3CCC21925852530009113C6 /* PintView.swift in Sources */,
 				C3CCC20B2582CC60009113C6 /* ThreeDotsLoaderView.swift in Sources */,
 				C3CCC1F42582C118009113C6 /* SwiftUIFunApp.swift in Sources */,
 				C3CCC20F2582CCB0009113C6 /* Color+Extension.swift in Sources */,
