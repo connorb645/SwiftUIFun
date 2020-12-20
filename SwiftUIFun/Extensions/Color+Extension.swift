@@ -17,4 +17,12 @@ extension Color {
     static let beer1 = Color("Beer1")
     static let beer2 = Color("Beer2")
     static let beer3 = Color("Beer3")
+    static let uidpBlueBackgroud = Color("uidpBlueBackground")
+    static let uidpPinkBackgroud = Color("uidpPinkBackground")
+    static let uidpPurpleBackgroud = Color("uidpPurpleBackground")
+    static let uidpRedBackground = Color("uidpRedBackground")
+    static let uidpBlueGradient = Color("uidpBlueGradient")
+    static let uidpPinkGradient = Color("uidpPinkGradient")
+    static let uidpPurpleGradient = Color("uidpPurpleGradient")
+    static let uidpRedGradient = Color("uidpRedGradient")
 }

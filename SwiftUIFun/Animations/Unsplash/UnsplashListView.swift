@@ -7,11 +7,9 @@
 
 import SwiftUI
 
-let unsplashImageNames: [String] = ["unsplash-1", "unsplash-2", "unsplash-3", "unsplash-4", "unsplash-5", "unsplash-6", "unsplash-7", "unsplash-8", "unsplash-9", "unsplash-10", "unsplash-11"]
-
 struct UnsplashListView: View {
     
-    let imageNames: [String]
+    let imageNames: [String] = ["unsplash-1", "unsplash-2", "unsplash-3", "unsplash-4", "unsplash-5", "unsplash-6", "unsplash-7", "unsplash-8", "unsplash-9", "unsplash-10", "unsplash-11"]
     
     @State var selectedImage: String?
     
@@ -96,6 +94,6 @@ struct UnsplashListView: View {
 
 struct UnsplashListView_Previews: PreviewProvider {
     static var previews: some View {
-        UnsplashListView(imageNames: unsplashImageNames)
+        UnsplashListView()
     }
 }

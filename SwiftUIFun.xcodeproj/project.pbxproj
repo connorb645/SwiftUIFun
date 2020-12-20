@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C34C7B70258CAFB600B37823 /* UnsplashListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34C7B6F258CAFB600B37823 /* UnsplashListView.swift */; };
+		C39AA367258F52F600628B97 /* UIDPHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39AA366258F52F600628B97 /* UIDPHomeView.swift */; };
+		C39AA36F258F6DE000628B97 /* PercentageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39AA36E258F6DE000628B97 /* PercentageView.swift */; };
+		C39AA373258FA6D600628B97 /* PercentageDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39AA372258FA6D500628B97 /* PercentageDisplayView.swift */; };
 		C3CCC1F42582C118009113C6 /* SwiftUIFunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCC1F32582C118009113C6 /* SwiftUIFunApp.swift */; };
 		C3CCC1F62582C118009113C6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCC1F52582C118009113C6 /* HomeView.swift */; };
 		C3CCC1F82582C11B009113C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3CCC1F72582C11B009113C6 /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 
 /* Begin PBXFileReference section */
 		C34C7B6F258CAFB600B37823 /* UnsplashListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashListView.swift; sourceTree = "<group>"; };
+		C39AA366258F52F600628B97 /* UIDPHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDPHomeView.swift; sourceTree = "<group>"; };
+		C39AA36E258F6DE000628B97 /* PercentageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageView.swift; sourceTree = "<group>"; };
+		C39AA372258FA6D500628B97 /* PercentageDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageDisplayView.swift; sourceTree = "<group>"; };
 		C3CCC1F02582C118009113C6 /* SwiftUIFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CCC1F32582C118009113C6 /* SwiftUIFunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFunApp.swift; sourceTree = "<group>"; };
 		C3CCC1F52582C118009113C6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -51,6 +57,31 @@
 			path = Unsplash;
 			sourceTree = "<group>";
 		};
+		C39AA364258F52B500628B97 /* Designs */ = {
+			isa = PBXGroup;
+			children = (
+				C39AA365258F52C300628B97 /* uidesign.pro */,
+			);
+			path = Designs;
+			sourceTree = "<group>";
+		};
+		C39AA365258F52C300628B97 /* uidesign.pro */ = {
+			isa = PBXGroup;
+			children = (
+				C39AA366258F52F600628B97 /* UIDPHomeView.swift */,
+			);
+			path = uidesign.pro;
+			sourceTree = "<group>";
+		};
+		C39AA36D258F6DC500628B97 /* Percentage */ = {
+			isa = PBXGroup;
+			children = (
+				C39AA36E258F6DE000628B97 /* PercentageView.swift */,
+				C39AA372258FA6D500628B97 /* PercentageDisplayView.swift */,
+			);
+			path = Percentage;
+			sourceTree = "<group>";
+		};
 		C3CCC1E72582C118009113C6 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +101,7 @@
 		C3CCC1F22582C118009113C6 /* SwiftUIFun */ = {
 			isa = PBXGroup;
 			children = (
+				C39AA364258F52B500628B97 /* Designs */,
 				C3CCC20D2582CCA0009113C6 /* Extensions */,
 				C3CCC2062582C774009113C6 /* Resources */,
 				C3CCC1F32582C118009113C6 /* SwiftUIFunApp.swift */,
@@ -92,6 +124,7 @@
 		C3CCC2042582C641009113C6 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				C39AA36D258F6DC500628B97 /* Percentage */,
 				C34C7B6E258CAD5700B37823 /* Unsplash */,
 				C3CCC21725852515009113C6 /* Pint Animation */,
 				C3CCC21225837110009113C6 /* Navigation Drawer */,
@@ -209,12 +242,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C39AA36F258F6DE000628B97 /* PercentageView.swift in Sources */,
 				C34C7B70258CAFB600B37823 /* UnsplashListView.swift in Sources */,
 				C3CCC1F62582C118009113C6 /* HomeView.swift in Sources */,
 				C3CCC21925852530009113C6 /* PintView.swift in Sources */,
+				C39AA367258F52F600628B97 /* UIDPHomeView.swift in Sources */,
 				C3CCC20B2582CC60009113C6 /* ThreeDotsLoaderView.swift in Sources */,
 				C3CCC1F42582C118009113C6 /* SwiftUIFunApp.swift in Sources */,
 				C3CCC20F2582CCB0009113C6 /* Color+Extension.swift in Sources */,
+				C39AA373258FA6D600628B97 /* PercentageDisplayView.swift in Sources */,
 				C3CCC2142583719B009113C6 /* NavigationDrawerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
