@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C34C7B70258CAFB600B37823 /* UnsplashListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34C7B6F258CAFB600B37823 /* UnsplashListView.swift */; };
+		C390A012259248BF00E4BA76 /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390A011259248BF00E4BA76 /* FloatingActionButton.swift */; };
 		C39AA367258F52F600628B97 /* UIDPHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39AA366258F52F600628B97 /* UIDPHomeView.swift */; };
 		C39AA36F258F6DE000628B97 /* PercentageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39AA36E258F6DE000628B97 /* PercentageView.swift */; };
 		C39AA373258FA6D600628B97 /* PercentageDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39AA372258FA6D500628B97 /* PercentageDisplayView.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		C34C7B6F258CAFB600B37823 /* UnsplashListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashListView.swift; sourceTree = "<group>"; };
+		C390A011259248BF00E4BA76 /* FloatingActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
 		C39AA366258F52F600628B97 /* UIDPHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDPHomeView.swift; sourceTree = "<group>"; };
 		C39AA36E258F6DE000628B97 /* PercentageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageView.swift; sourceTree = "<group>"; };
 		C39AA372258FA6D500628B97 /* PercentageDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageDisplayView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,14 @@
 				C34C7B6F258CAFB600B37823 /* UnsplashListView.swift */,
 			);
 			path = Unsplash;
+			sourceTree = "<group>";
+		};
+		C390A010259248A100E4BA76 /* Floating Action Button */ = {
+			isa = PBXGroup;
+			children = (
+				C390A011259248BF00E4BA76 /* FloatingActionButton.swift */,
+			);
+			path = "Floating Action Button";
 			sourceTree = "<group>";
 		};
 		C39AA364258F52B500628B97 /* Designs */ = {
@@ -124,6 +134,7 @@
 		C3CCC2042582C641009113C6 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				C390A010259248A100E4BA76 /* Floating Action Button */,
 				C39AA36D258F6DC500628B97 /* Percentage */,
 				C34C7B6E258CAD5700B37823 /* Unsplash */,
 				C3CCC21725852515009113C6 /* Pint Animation */,
@@ -251,6 +262,7 @@
 				C3CCC1F42582C118009113C6 /* SwiftUIFunApp.swift in Sources */,
 				C3CCC20F2582CCB0009113C6 /* Color+Extension.swift in Sources */,
 				C39AA373258FA6D600628B97 /* PercentageDisplayView.swift in Sources */,
+				C390A012259248BF00E4BA76 /* FloatingActionButton.swift in Sources */,
 				C3CCC2142583719B009113C6 /* NavigationDrawerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

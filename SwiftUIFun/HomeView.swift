@@ -10,7 +10,7 @@ import SwiftUI
 struct HomeView: View {
     
     enum Section: CaseIterable {
-        case threeDotsLoader, navigationDrawer, pint, unsplash, uiDesignPro, percentageDisplayView
+        case threeDotsLoader, navigationDrawer, pint, unsplash, uiDesignPro, percentageDisplayView, floatingActionButton
         
         var title: String {
             switch self {
@@ -26,6 +26,8 @@ struct HomeView: View {
                 return "Percentage View"
             case .uiDesignPro:
                 return "@uidesign.pro"
+            case .floatingActionButton:
+                return "Floating Action Button"
             }
         }
     }
@@ -61,6 +63,8 @@ struct HomeView: View {
                 PercentageDisplayView()
             case .uiDesignPro:
                 UIDPHomeView()
+            case .floatingActionButton:
+                FloatingActionButtonContainerView()
          }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)

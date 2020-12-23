@@ -25,4 +25,7 @@ extension Color {
     static let uidpPinkGradient = Color("uidpPinkGradient")
     static let uidpPurpleGradient = Color("uidpPurpleGradient")
     static let uidpRedGradient = Color("uidpRedGradient")
+    static let lightOrange = Color("LightOrange")
+    static let lightSalmon = Color("LightSalmon")
+    static let lightLime = Color("LightLime")
 }
