@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		C34C7B70258CAFB600B37823 /* UnsplashListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34C7B6F258CAFB600B37823 /* UnsplashListView.swift */; };
 		C390A012259248BF00E4BA76 /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390A011259248BF00E4BA76 /* FloatingActionButton.swift */; };
+		C390A01725935C7A00E4BA76 /* ObservedAndStateObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390A01625935C7A00E4BA76 /* ObservedAndStateObjects.swift */; };
+		C390A01C2594ADC400E4BA76 /* MerryChristmasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390A01B2594ADC400E4BA76 /* MerryChristmasView.swift */; };
+		C390A0202594B08800E4BA76 /* BezierPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390A01F2594B08800E4BA76 /* BezierPaths.swift */; };
+		C390A0232594B3FF00E4BA76 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390A0222594B3FF00E4BA76 /* Path.swift */; };
 		C39AA367258F52F600628B97 /* UIDPHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39AA366258F52F600628B97 /* UIDPHomeView.swift */; };
 		C39AA36F258F6DE000628B97 /* PercentageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39AA36E258F6DE000628B97 /* PercentageView.swift */; };
 		C39AA373258FA6D600628B97 /* PercentageDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39AA372258FA6D500628B97 /* PercentageDisplayView.swift */; };
@@ -20,11 +24,22 @@
 		C3CCC20F2582CCB0009113C6 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCC20E2582CCB0009113C6 /* Color+Extension.swift */; };
 		C3CCC2142583719B009113C6 /* NavigationDrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCC2132583719B009113C6 /* NavigationDrawerView.swift */; };
 		C3CCC21925852530009113C6 /* PintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCC21825852530009113C6 /* PintView.swift */; };
+		C3D88DAE259D14F4003107D2 /* InstagramCloneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D88DAD259D14F4003107D2 /* InstagramCloneView.swift */; };
+		C3D9A4DD25A0874300972FE6 /* ConditionalViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D9A4DC25A0874300972FE6 /* ConditionalViewModifier.swift */; };
+		C3D9A4E025A0877400972FE6 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D9A4DF25A0877400972FE6 /* View+Extension.swift */; };
+		C3D9A4E325A087A100972FE6 /* LinearGradient+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D9A4E225A087A100972FE6 /* LinearGradient+Extension.swift */; };
+		C3D9A4E725A087CF00972FE6 /* NeumorphicButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D9A4E625A087CF00972FE6 /* NeumorphicButtonStyle.swift */; };
+		C3D9A4ED25A0BBCA00972FE6 /* DotMorphingLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D9A4EC25A0BBCA00972FE6 /* DotMorphingLoader.swift */; };
+		C3D9A4F225A39F1D00972FE6 /* LeftNavigationDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D9A4F125A39F1D00972FE6 /* LeftNavigationDrawer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C34C7B6F258CAFB600B37823 /* UnsplashListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashListView.swift; sourceTree = "<group>"; };
 		C390A011259248BF00E4BA76 /* FloatingActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
+		C390A01625935C7A00E4BA76 /* ObservedAndStateObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedAndStateObjects.swift; sourceTree = "<group>"; };
+		C390A01B2594ADC400E4BA76 /* MerryChristmasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerryChristmasView.swift; sourceTree = "<group>"; };
+		C390A01F2594B08800E4BA76 /* BezierPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPaths.swift; sourceTree = "<group>"; };
+		C390A0222594B3FF00E4BA76 /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 		C39AA366258F52F600628B97 /* UIDPHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDPHomeView.swift; sourceTree = "<group>"; };
 		C39AA36E258F6DE000628B97 /* PercentageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageView.swift; sourceTree = "<group>"; };
 		C39AA372258FA6D500628B97 /* PercentageDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageDisplayView.swift; sourceTree = "<group>"; };
@@ -38,6 +53,13 @@
 		C3CCC20E2582CCB0009113C6 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		C3CCC2132583719B009113C6 /* NavigationDrawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDrawerView.swift; sourceTree = "<group>"; };
 		C3CCC21825852530009113C6 /* PintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PintView.swift; sourceTree = "<group>"; };
+		C3D88DAD259D14F4003107D2 /* InstagramCloneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCloneView.swift; sourceTree = "<group>"; };
+		C3D9A4DC25A0874300972FE6 /* ConditionalViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalViewModifier.swift; sourceTree = "<group>"; };
+		C3D9A4DF25A0877400972FE6 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		C3D9A4E225A087A100972FE6 /* LinearGradient+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinearGradient+Extension.swift"; sourceTree = "<group>"; };
+		C3D9A4E625A087CF00972FE6 /* NeumorphicButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicButtonStyle.swift; sourceTree = "<group>"; };
+		C3D9A4EC25A0BBCA00972FE6 /* DotMorphingLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotMorphingLoader.swift; sourceTree = "<group>"; };
+		C3D9A4F125A39F1D00972FE6 /* LeftNavigationDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftNavigationDrawer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +89,27 @@
 			path = "Floating Action Button";
 			sourceTree = "<group>";
 		};
+		C390A01525935C5700E4BA76 /* SwiftUI Tips */ = {
+			isa = PBXGroup;
+			children = (
+				C390A01625935C7A00E4BA76 /* ObservedAndStateObjects.swift */,
+				C3D9A4DC25A0874300972FE6 /* ConditionalViewModifier.swift */,
+			);
+			path = "SwiftUI Tips";
+			sourceTree = "<group>";
+		};
+		C390A01A2594AD8600E4BA76 /* Merry Christmas */ = {
+			isa = PBXGroup;
+			children = (
+				C390A01B2594ADC400E4BA76 /* MerryChristmasView.swift */,
+			);
+			path = "Merry Christmas";
+			sourceTree = "<group>";
+		};
 		C39AA364258F52B500628B97 /* Designs */ = {
 			isa = PBXGroup;
 			children = (
+				C3D88DAB259D14D1003107D2 /* Instagram Clone */,
 				C39AA365258F52C300628B97 /* uidesign.pro */,
 			);
 			path = Designs;
@@ -111,6 +151,8 @@
 		C3CCC1F22582C118009113C6 /* SwiftUIFun */ = {
 			isa = PBXGroup;
 			children = (
+				C3D9A4E525A087BF00972FE6 /* Button Styles */,
+				C390A01525935C5700E4BA76 /* SwiftUI Tips */,
 				C39AA364258F52B500628B97 /* Designs */,
 				C3CCC20D2582CCA0009113C6 /* Extensions */,
 				C3CCC2062582C774009113C6 /* Resources */,
@@ -134,6 +176,9 @@
 		C3CCC2042582C641009113C6 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				C3D9A4F025A39EF800972FE6 /* Navigation Drawers */,
+				C3D9A4EB25A0BA5C00972FE6 /* DotMorphingLoader */,
+				C390A01A2594AD8600E4BA76 /* Merry Christmas */,
 				C390A010259248A100E4BA76 /* Floating Action Button */,
 				C39AA36D258F6DC500628B97 /* Percentage */,
 				C34C7B6E258CAD5700B37823 /* Unsplash */,
@@ -156,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				C3CCC1F72582C11B009113C6 /* Assets.xcassets */,
+				C390A01F2594B08800E4BA76 /* BezierPaths.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -164,6 +210,9 @@
 			isa = PBXGroup;
 			children = (
 				C3CCC20E2582CCB0009113C6 /* Color+Extension.swift */,
+				C390A0222594B3FF00E4BA76 /* Path.swift */,
+				C3D9A4DF25A0877400972FE6 /* View+Extension.swift */,
+				C3D9A4E225A087A100972FE6 /* LinearGradient+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -182,6 +231,38 @@
 				C3CCC21825852530009113C6 /* PintView.swift */,
 			);
 			path = "Pint Animation";
+			sourceTree = "<group>";
+		};
+		C3D88DAB259D14D1003107D2 /* Instagram Clone */ = {
+			isa = PBXGroup;
+			children = (
+				C3D88DAD259D14F4003107D2 /* InstagramCloneView.swift */,
+			);
+			path = "Instagram Clone";
+			sourceTree = "<group>";
+		};
+		C3D9A4E525A087BF00972FE6 /* Button Styles */ = {
+			isa = PBXGroup;
+			children = (
+				C3D9A4E625A087CF00972FE6 /* NeumorphicButtonStyle.swift */,
+			);
+			path = "Button Styles";
+			sourceTree = "<group>";
+		};
+		C3D9A4EB25A0BA5C00972FE6 /* DotMorphingLoader */ = {
+			isa = PBXGroup;
+			children = (
+				C3D9A4EC25A0BBCA00972FE6 /* DotMorphingLoader.swift */,
+			);
+			path = DotMorphingLoader;
+			sourceTree = "<group>";
+		};
+		C3D9A4F025A39EF800972FE6 /* Navigation Drawers */ = {
+			isa = PBXGroup;
+			children = (
+				C3D9A4F125A39F1D00972FE6 /* LeftNavigationDrawer.swift */,
+			);
+			path = "Navigation Drawers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,16 +334,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C390A01725935C7A00E4BA76 /* ObservedAndStateObjects.swift in Sources */,
 				C39AA36F258F6DE000628B97 /* PercentageView.swift in Sources */,
 				C34C7B70258CAFB600B37823 /* UnsplashListView.swift in Sources */,
 				C3CCC1F62582C118009113C6 /* HomeView.swift in Sources */,
 				C3CCC21925852530009113C6 /* PintView.swift in Sources */,
+				C3D88DAE259D14F4003107D2 /* InstagramCloneView.swift in Sources */,
+				C390A0202594B08800E4BA76 /* BezierPaths.swift in Sources */,
+				C390A01C2594ADC400E4BA76 /* MerryChristmasView.swift in Sources */,
 				C39AA367258F52F600628B97 /* UIDPHomeView.swift in Sources */,
 				C3CCC20B2582CC60009113C6 /* ThreeDotsLoaderView.swift in Sources */,
+				C3D9A4DD25A0874300972FE6 /* ConditionalViewModifier.swift in Sources */,
+				C3D9A4E325A087A100972FE6 /* LinearGradient+Extension.swift in Sources */,
 				C3CCC1F42582C118009113C6 /* SwiftUIFunApp.swift in Sources */,
+				C3D9A4F225A39F1D00972FE6 /* LeftNavigationDrawer.swift in Sources */,
+				C3D9A4E725A087CF00972FE6 /* NeumorphicButtonStyle.swift in Sources */,
 				C3CCC20F2582CCB0009113C6 /* Color+Extension.swift in Sources */,
 				C39AA373258FA6D600628B97 /* PercentageDisplayView.swift in Sources */,
 				C390A012259248BF00E4BA76 /* FloatingActionButton.swift in Sources */,
+				C390A0232594B3FF00E4BA76 /* Path.swift in Sources */,
+				C3D9A4E025A0877400972FE6 /* View+Extension.swift in Sources */,
+				C3D9A4ED25A0BBCA00972FE6 /* DotMorphingLoader.swift in Sources */,
 				C3CCC2142583719B009113C6 /* NavigationDrawerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

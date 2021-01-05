@@ -10,7 +10,8 @@ import SwiftUI
 struct HomeView: View {
     
     enum Section: CaseIterable {
-        case threeDotsLoader, navigationDrawer, pint, unsplash, uiDesignPro, percentageDisplayView, floatingActionButton
+        case threeDotsLoader, navigationDrawer, pint, unsplash, uiDesignPro, percentageDisplayView, floatingActionButton, christmasMessage, instagramClone,
+            dotMorphingLoader, leftNavigationDrawer
         
         var title: String {
             switch self {
@@ -28,6 +29,14 @@ struct HomeView: View {
                 return "@uidesign.pro"
             case .floatingActionButton:
                 return "Floating Action Button"
+            case .christmasMessage:
+                return "Animated Christmas Lights Message"
+            case .instagramClone:
+                return "Instagram Clone"
+            case .dotMorphingLoader:
+                return "Dot Morphing Loader"
+            case .leftNavigationDrawer:
+                return "Left Navigation Drawer"
             }
         }
     }
@@ -65,6 +74,14 @@ struct HomeView: View {
                 UIDPHomeView()
             case .floatingActionButton:
                 FloatingActionButtonContainerView()
+            case .christmasMessage:
+                MerryChristmasView()
+            case .instagramClone:
+                InstagramCloneView()
+            case .dotMorphingLoader:
+                DotMorphingLoaderContainerView()
+            case .leftNavigationDrawer:
+                LeftNavigationDrawer()
          }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
