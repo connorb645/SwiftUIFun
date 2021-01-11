@@ -11,7 +11,7 @@ struct HomeView: View {
     
     enum Section: CaseIterable {
         case threeDotsLoader, navigationDrawer, pint, unsplash, uiDesignPro, percentageDisplayView, floatingActionButton, christmasMessage, instagramClone,
-            dotMorphingLoader, leftNavigationDrawer
+            dotMorphingLoader, leftNavigationDrawer, fluidPageView
         
         var title: String {
             switch self {
@@ -37,6 +37,8 @@ struct HomeView: View {
                 return "Dot Morphing Loader"
             case .leftNavigationDrawer:
                 return "Left Navigation Drawer"
+            case .fluidPageView:
+                return "Fluid Page View"
             }
         }
     }
@@ -82,6 +84,8 @@ struct HomeView: View {
                 DotMorphingLoaderContainerView()
             case .leftNavigationDrawer:
                 LeftNavigationDrawer()
+            case .fluidPageView:
+                FluidPageView()
          }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
