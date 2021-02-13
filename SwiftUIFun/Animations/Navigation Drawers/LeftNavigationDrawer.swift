@@ -26,7 +26,6 @@ struct LeftNavigationDrawer: View {
         
     @State var isNavigationDrawerOpen = false
     @State var selectedScreen: LNDScreen = .swift
-    @State var isBlueSquareShowing = false
     
     var body: some View {
         ZStack {
