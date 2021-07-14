@@ -29,6 +29,8 @@
 		C39AA367258F52F600628B97 /* UIDPHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39AA366258F52F600628B97 /* UIDPHomeView.swift */; };
 		C39AA36F258F6DE000628B97 /* PercentageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39AA36E258F6DE000628B97 /* PercentageView.swift */; };
 		C39AA373258FA6D600628B97 /* PercentageDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39AA372258FA6D500628B97 /* PercentageDisplayView.swift */; };
+		C39C0439269F377400EBCFE5 /* InteractiveDismissal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39C0438269F377400EBCFE5 /* InteractiveDismissal.swift */; };
+		C39C043B269F37A700EBCFE5 /* ScrollViewBottomContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39C043A269F37A700EBCFE5 /* ScrollViewBottomContent.swift */; };
 		C3B1D09C25BF399A00E7F903 /* DismissableNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1D09B25BF399A00E7F903 /* DismissableNavigationView.swift */; };
 		C3CC8DD225D4440A001396BF /* BottomDockViewCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CC8DD125D4440A001396BF /* BottomDockViewCopy.swift */; };
 		C3CCC1F42582C118009113C6 /* SwiftUIFunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCC1F32582C118009113C6 /* SwiftUIFunApp.swift */; };
@@ -71,6 +73,8 @@
 		C39AA366258F52F600628B97 /* UIDPHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDPHomeView.swift; sourceTree = "<group>"; };
 		C39AA36E258F6DE000628B97 /* PercentageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageView.swift; sourceTree = "<group>"; };
 		C39AA372258FA6D500628B97 /* PercentageDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentageDisplayView.swift; sourceTree = "<group>"; };
+		C39C0438269F377400EBCFE5 /* InteractiveDismissal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveDismissal.swift; sourceTree = "<group>"; };
+		C39C043A269F37A700EBCFE5 /* ScrollViewBottomContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBottomContent.swift; sourceTree = "<group>"; };
 		C3B1D09B25BF399A00E7F903 /* DismissableNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissableNavigationView.swift; sourceTree = "<group>"; };
 		C3CC8DD125D4440A001396BF /* BottomDockViewCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomDockViewCopy.swift; sourceTree = "<group>"; };
 		C3CCC1F02582C118009113C6 /* SwiftUIFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -248,6 +252,15 @@
 			path = Percentage;
 			sourceTree = "<group>";
 		};
+		C39C0437269F375900EBCFE5 /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+				C39C0438269F377400EBCFE5 /* InteractiveDismissal.swift */,
+				C39C043A269F37A700EBCFE5 /* ScrollViewBottomContent.swift */,
+			);
+			path = Problems;
+			sourceTree = "<group>";
+		};
 		C3CC8DD025D443F6001396BF /* Dock */ = {
 			isa = PBXGroup;
 			children = (
@@ -275,6 +288,7 @@
 		C3CCC1F22582C118009113C6 /* SwiftUIFun */ = {
 			isa = PBXGroup;
 			children = (
+				C39C0437269F375900EBCFE5 /* Problems */,
 				C34BAE8125C6B6A900CB3F05 /* Global Helper Functions */,
 				C34BAE7C25C6B4EF00CB3F05 /* Shapes */,
 				C3D9A4E525A087BF00972FE6 /* Button Styles */,
@@ -463,6 +477,7 @@
 				C348BE1B25CED2A500E68FA4 /* OnboardingProgressView.swift in Sources */,
 				C3238E6C25A7B605009E02E7 /* SliderData.swift in Sources */,
 				C390A01725935C7A00E4BA76 /* ObservedAndStateObjects.swift in Sources */,
+				C39C0439269F377400EBCFE5 /* InteractiveDismissal.swift in Sources */,
 				C39AA36F258F6DE000628B97 /* PercentageView.swift in Sources */,
 				C34C7B70258CAFB600B37823 /* UnsplashListView.swift in Sources */,
 				C3CCC1F62582C118009113C6 /* HomeView.swift in Sources */,
@@ -483,6 +498,7 @@
 				C3D9A4E725A087CF00972FE6 /* NeumorphicButtonStyle.swift in Sources */,
 				C396849825B889820056F19D /* ImageInfoButtonView.swift in Sources */,
 				C3CCC20F2582CCB0009113C6 /* Color+Extension.swift in Sources */,
+				C39C043B269F37A700EBCFE5 /* ScrollViewBottomContent.swift in Sources */,
 				C39AA373258FA6D600628B97 /* PercentageDisplayView.swift in Sources */,
 				C34BAE8325C6B6C300CB3F05 /* GlobalHelperFunctions.swift in Sources */,
 				C390A012259248BF00E4BA76 /* FloatingActionButton.swift in Sources */,
